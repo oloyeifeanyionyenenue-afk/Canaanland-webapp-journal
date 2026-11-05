@@ -1,0 +1,23 @@
+# 🎄 Christmas Journal Web App
+
+A warm, elegant, and private digital sanctuary designed to help users capture holiday memories, track seasonal traditions, save family recipes, and count down to Christmas Day. Built with a **local-first architecture**, all memories, photos, and gift lists remain stored privately on the user's device.
+
+---
+
+## ✨ Features
+
+- ⏳ **Festive Countdown & Dashboard** — Live countdown timer to Christmas Day alongside quick stat summaries for your entries, recipes, and traditions.
+- 📝 **Rich Journal & Memory Capture** — Log daily reflections, tag locations and holiday moods, attach compressed photos, or generate daily writing prompts to beat writer's block.
+- 🎁 **Traditions & Gift Tracker** — Keep track of holiday movie watchlists, annual outings, gift budgets, and wrapping statuses.
+- 🍪 **Holiday Recipe Book** — Store cherished family recipes complete with ingredients, step-by-step instructions, prep times, and star ratings.
+- ❄️ **Cozy UI & Ambient Snow Effect** — Thoughtfully styled with a deep evergreen (`#1B4D3E`), rich crimson (`#9B111E`), and soft gold (`#D4AF37`) palette, complete with a gentle falling snow toggle.
+- 🔒 **Privacy First & Responsive** — Local browser storage (`IndexedDB` / `LocalStorage`) with zero backend dependencies, optimized seamlessly for mobile, tablet, and desktop views.
+
+---
+
+## 🎨 Tech Stack & Design
+
+- **Typography:** Playfair Display (Headings) & Inter / System Sans-Serif (Body)
+- **Styling:** Modern CSS (Flexbox/Grid, CSS Variables, Responsive Design)
+- **Storage:** Browser LocalStorage / IndexedDB with optional JSON import/export for data backups.
+- **Media Handling:** Client-side HTML5 Canvas photo compression.
